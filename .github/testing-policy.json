@@ -1,12 +1,12 @@
 {
   "version": 1,
   "source_repository": "Guna-Solutions/guna-dev-kit",
-  "source_commit": "d70f31e6a28742c0066f1c0d47e8fc55c7e4a870",
+  "source_commit": "020a620ab1fcf29167dad3708c1cfe2fb16219cb",
   "source_path": "docs/TESTING-STRATEGY.md",
-  "policy_sha256": "39c10a571149e9da4e338cf028fec1df874749b23fe2d0659b354fac716cd467",
+  "policy_sha256": "e6e19d78a1ae208fed69020a794d85708380633db97a7c78b86c702192197af4",
   "managed_blocks": {
     "AGENTS.md": "5727da093fd403c20484946ce86be00a390ba64d169e91a9362046e46e25cbd9",
     ".github/pr-review-guidance.md": "9f6304689b8b1a032ae88e82f583ca6736bceaf183fb8b31255deac790f85ad4",
-    ".github/pull_request_template.md": "1fb45affe77aacb13c4e8e3fab5c0d7171f656006675b68716491e91a61d49a7"
+    ".github/pull_request_template.md": "f7be0a1b60502fe2d926b76a771cc7dafb5564ced2b72c4fe09b15063996b991"
   }
 }

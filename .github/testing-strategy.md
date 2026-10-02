@@ -89,12 +89,10 @@ and registration evidence, unexpected skips/retries and limitations. For bug
 fixes include fail-before/pass-after evidence. Do not fill fields with placeholders
 or treat a rationale passing the parser as a test-quality verdict.
 
-Complete the rationale before requesting review. For test-changing PRs, the merge
-tool requires the original review evidence to follow the PR body's latest edit;
-a later coordinator conversion does not refresh an old review. Editing the body
-after review requires a fresh review of the same head, including when the edit
-only adds verification results. Keep subsequent operational updates in comments
-when the reviewed rationale remains accurate. Unchanged CI need not rerun.
+Complete the rationale before requesting review so the reviewer assesses it.
+Approval binds to the exact head, not the PR body: editing the body afterwards
+(for example to add verification results) needs no new review and no CI rerun.
+The merge tool still requires the five filled headings at merge time.
 
 For behavior changes without test-file edits, reviewers still require appropriate
 verification and assess missing coverage. Document a justified exception in the
